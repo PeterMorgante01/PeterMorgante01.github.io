@@ -1,0 +1,40 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    float: left;
+}
+
+h1{
+    color: orange;
+    text-shadow: 3px 3px 2px black;
+    font-size: 50px;
+    margin-left: 10%;
+}
+
+h3.h1 {
+    margin-left: 10%;
+}
+
+b.b1 {
+    font-size: 60px;
+}
+
+a {
+    font-weight: bold;
+    color: orange;
+}
+
+a:hover {
+    color: green;
+}
+
+footer {
+    font-size: 90%;
+    text-align: center;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
