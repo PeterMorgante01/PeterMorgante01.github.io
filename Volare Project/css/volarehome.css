@@ -191,7 +191,7 @@ footer {
 .topnav input[type=text] {
     padding: 6px;
     border: none;
-    font-size: 17px;
+    font-size: 17px;
 }
 
 /* peter */
@@ -314,4 +314,17 @@ h4:after {
 
 .menu-container2:hover .dropdown-menu2 {
     display: block;
+}
+
+
+.backgroundvideo {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: fill;
 }

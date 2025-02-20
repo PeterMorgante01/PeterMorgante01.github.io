@@ -1,0 +1,66 @@
+/*LAB 4.2 - USING <div>s AND STYLING TEXT*/
+body { 
+    font-family:  Arial, Helvetica, sans-serif;
+   text-transform: uppercase;
+}
+
+h1 { 
+    margin-left: 100px;
+    margin-bottom: 0%;
+}
+
+nav ul {
+    margin-left: 300px;
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav li { 
+    color: #504750; 
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#mainPhoto img {
+    width: 100%;
+}
+
+#communities { 
+    background-color: #E4DFDA; 
+    color: #52414C;
+}
+
+#communities h2{ 
+    margin: 20px;
+    margin-left: 40px;  
+    padding-top: 35px; 
+}
+
+#communities ul{ 
+    list-style: none;
+    margin: 0;
+} 
+
+#communities li{ 
+    display:inline-block;
+    margin-right: 60px;
+}
+
+footer{
+    background-color: purple; 
+    color:white;
+    padding: 20px;
+}
+
+footer p{ 
+    padding: 0;
+    margin: 0;
+    margin-left: 15px; 
+    font-size: smaller;
+}

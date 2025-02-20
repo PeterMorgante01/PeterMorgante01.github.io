@@ -1,14 +1,21 @@
-/*Styling for entire site*/
+/*Styling for entire site: font, and making sure the image covers the entire screen*/
 html {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url('../images/sky.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 4%;
+    padding: 2%;
 }
 
-/*Styling for images*/
-img {
+/*Styling for fire image*/
+img.fire{
     float: left;
+}
+
+/*styling for portait image*/
+img.peter{
+    float: right;
 }
 
 /*Styling for headers*/
@@ -31,14 +38,21 @@ h3 {
     text-shadow: 3px 2px 2px orange;
 }
 
+/*Styling for unordered lists*/
+ul {
+    margin-top: 0%;
+    margin-left: 3%;
+}
+
+/* Individual styling for each header 2*/
+.movies {
+    float: right;
+    padding-right: 5%;
+}
+
 /*Paragraph styling*/
 p {
     margin-left: 50px;
-}
-
-/*Un ordered list styling*/
-ul {
-    margin-left: 5%;
 }
 
 /*Footer styling*/
